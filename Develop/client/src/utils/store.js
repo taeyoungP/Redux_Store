@@ -1,9 +1,9 @@
-//import { createStore } from 'redux'
-import configureStore from '@reduxjs/toolkit'; //replacing createStore with configureStore to resolve deprecated warning
-import rootReducer from './reducer'
+import { createStore } from 'redux'
+//import { configureStore } from '@reduxjs/toolkit';
+import reducer from './reducers'
 
-//const store = createStore(rootReducer)
-const store = configureStore(rootReducer)
+const store = createStore(reducer)
+//const store = configureStore({ reducer: reducer })
 
 export default store
 //https://redux.js.org/tutorials/fundamentals/part-4-store
