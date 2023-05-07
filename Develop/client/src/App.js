@@ -38,7 +38,7 @@ const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
-
+// https://redux.js.org/tutorials/fundamentals/part-5-ui-react // Passing the Store with Provider
 function App() {
   return (
     <ApolloProvider client={client}>
