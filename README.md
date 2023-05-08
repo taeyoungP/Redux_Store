@@ -29,10 +29,9 @@ WHEN I review the way the app dispatches actions
 THEN I find that the app uses Redux instead of the Context API
 ```
 
-
 ## Description
 
-* [Link to deployed application](https://sleepy-tundra-34637.herokuapp.com)
+* [Link to deployed application (Heroku)](https://sleepy-tundra-34637.herokuapp.com)
 
 * With app using Redux store instead of the Context ApI, user is able to signup and navigate to products page.
     ![A user registers on the Signup page and then navigates to the Products page, which displays images and descriptions of products.](./Assets/22-state-homework-demo-01.gif)
@@ -45,6 +44,7 @@ THEN I find that the app uses Redux instead of the Context API
 
 ## Credits
 * Redux Documentations referenced from: https://redux.js.org/tutorials/fundamentals/part-1-overview, https://react-redux.js.org/api/hooks
+* [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
