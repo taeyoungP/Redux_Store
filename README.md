@@ -30,6 +30,12 @@ THEN I find that the app uses Redux instead of the Context API
 WHEN I review the way the app dispatches actions
 THEN I find that the app uses Redux instead of the Context API
 ```
+
+
+## Description
+
+* [Link to deployed application](https://sleepy-tundra-34637.herokuapp.com)
+
 ## Credits
 * Redux: https://redux.js.org/tutorials/fundamentals/part-1-overview, https://react-redux.js.org/api/hooks
 
@@ -50,23 +56,6 @@ Finally, the user can check out by going to their shopping cart, as shown in the
 
 ![The user checks out by going to their shopping cart.](./Assets/22-state-homework-demo-03.gif)
 
-## Getting Started
-
-For instructions to add Redux to your application, refer to the [Redux Fundamentals basic tutorial](https://redux.js.org/basics/basic-tutorial). Note that the documentation will refer to additional packages that you'll need to complete this implementation.
-
-Be sure to review ALL of the documentation, because there are newer methods that can make these tools much easier to implement. React has gone through several iterations; as such, some React-and-Redux tutorials will assume that you aren't using Hooks.
-
-You'll use the Stripe API to process payments, which includes making front-end and back-end changes. Don't worry, Stripe provides test credentials, so you won't need to use a real credit card to try it out. Refer to the [Stripe docs on testing your integration](https://stripe.com/docs/testing).
-
-**Important**: The Challenge requires a specific version `(>=7.0)` of `npm` in order to install peer dependencies like GraphQL when deploying to Heroku. By default, Heroku uses `npm 6.x`, which may cause some issues. Be sure to refer to the [Heroku Docs on Specifying an NPM Version](https://devcenter.heroku.com/articles/nodejs-support#specifying-an-npm-version) to ensure your `package.json` file is set up correctly, as shown in the following snippet:
-
-  ```json
-  {
-    "engines": {
-      "npm": "7.x"
-    }
-  }
-  ```
 
 
 
